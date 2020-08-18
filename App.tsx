@@ -20,7 +20,7 @@ const StackNav = createStackNavigator<RootStackParamList>();
 
 const StackNavigation = () => {
 	return (
-		<StackNav.Navigator initialRouteName="Home">
+		<StackNav.Navigator initialRouteName="Home" headerMode="none">
 			<StackNav.Screen name="Home" component={HomeScreen} />
 			<StackNav.Screen name="Quiz" component={QuizScreen} />
 		</StackNav.Navigator>
